@@ -1,0 +1,23 @@
+{
+  "name": "header-microservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "heroku-postbuild": "npm run build",
+    "start": "micro",
+    "deploy": "now -e NODE_ENV=production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dateformat": "^2.0.0",
+    "express": "^4.15.2",
+    "micro": "^7.3.3",
+    "next": "^2.3.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {}
+}
